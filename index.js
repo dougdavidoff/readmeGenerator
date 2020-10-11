@@ -70,5 +70,22 @@ function promptUser() {
 }
 
 function generateMD(content) {
-    return ``
+    return `README contentr goes here`
 }
+
+async function init() {
+    console.log("hi")
+    try {
+        const content = await promptUser();
+
+        const md = generateMD(content);
+
+        await writeFileAsync("README.md", md);
+
+        console.log("Successfully wrote to README.md");
+    }   catch(err) {
+        console.log(err);
+    }
+}
+
+init();
