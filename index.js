@@ -68,3 +68,7 @@ function promptUser() {
         }
     ]);
 }
+
+function generateMD(content) {
+    return ``
+}
