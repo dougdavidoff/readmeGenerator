@@ -47,8 +47,9 @@ function promptUser() {
             message: "Use instructions"
         },
         {
-            type: "input",
+            type: "list",
             name: "license",
+            choices: ["tom","dick","harry"],
             message: "Licensing"
         },
         {
@@ -70,15 +71,16 @@ function promptUser() {
 }
 
 function generateMD(content) {
-    return `README contentr goes here`
+    console.log(content);
+    return `# ${content.projectTitle}\n## ${content.developer}\n\n### Project Description\n ${content.description}\n## Installation\n ${content.installation}\n## Usage\n ${content.usage}\n## Contributors\n ${content.contributing}\n## Tests\n ${content.tests}\n## Questions and Contact Info\n ${content.questions}\n * Link to Github profile for the developer, ${content.developer}: [GitHub](https://github.com/${content.github})\n * Email address for ${content.developer}: ${content.email}`
 }
 
 async function init() {
     console.log("hi")
     try {
-        const content = await promptUser();
-
-        const md = generateMD(content);
+        const answers = await promptUser();
+        
+        const md = generateMD(answers);
 
         await writeFileAsync("README.md", md);
 
