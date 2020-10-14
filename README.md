@@ -1,4 +1,4 @@
-# Flat Earth
+# Holyoke
 ## Doug Davidoff
  [License: MIT](http://img.shields.io/static/v1?label=License&message=<CONTENT.LICENSE CODE HERE>&color=orange) 
 ### Table of Contents
@@ -11,20 +11,20 @@
 [License](###license)
 [Questions, Contact Info](###questions-and-contact-info)
 ### Project Description
- Presents surface oif a sphere as a two-dimensional shape.
+ Drag Holyoke down the river
 ### Installation
- Peel away surface of the sphere. Spread it out with as few tears as possible.
+ Find the CT river
 ### Usage
- Read the resulting shape.
+ Pur Holyoke out
 ### Future Development
- Handle for rubix cubes.
+ Pur Hartfgord out, too
 ### Contributors
- shape shifters
+ Joy
 ### Tests
- used entire Earth in a test. No one noticed.
+ None
 ### License
  undefined
 ### Questions and Contact Info
- Contact developer for more info.
+ Contact the developer if in a flood.
  * Link to Github profile for the developer, Doug Davidoff: [GitHub](https://github.com/dougdavidoff)
- * Email address for Doug Davidoff: douglass.davidoff@gmail.com
+ * Email address for Doug Davidoff: doug@mail.com
