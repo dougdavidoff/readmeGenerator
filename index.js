@@ -33,11 +33,6 @@ function promptUser() {
         },
         {
             type: "input",
-            name: "toc",
-            message: "Table of contents"
-        },
-        {
-            type: "input",
             name: "installation",
             message: "Install instructions"
         },
@@ -47,9 +42,14 @@ function promptUser() {
             message: "Use instructions"
         },
         {
+            type: "input",
+            name: "future",
+            message: "Future development plans"
+        },
+        {
             type: "list",
             name: "license",
-            choices: ["tom","dick","harry"],
+            choices: ["MIT","Apache 2.0","GPLv3","AGPLv3","wtfpl"],
             message: "Licensing"
         },
         {
@@ -72,7 +72,7 @@ function promptUser() {
 
 function generateMD(content) {
     console.log(content);
-    return `# ${content.projectTitle}\n## ${content.developer}\n\n### Project Description\n ${content.description}\n## Installation\n ${content.installation}\n## Usage\n ${content.usage}\n## Contributors\n ${content.contributing}\n## Tests\n ${content.tests}\n## Questions and Contact Info\n ${content.questions}\n * Link to Github profile for the developer, ${content.developer}: [GitHub](https://github.com/${content.github})\n * Email address for ${content.developer}: ${content.email}`
+    return `# ${content.projectTitle}\n## ${content.developer}\n [License: ${content.license}](http://img.shields.io/static/v1?label=License&message=<CONTENT.LICENSE CODE HERE>&color=orange) \n### Table of Contents\n[Project Description](###project-description)\n[Installation](###installation)\n[Usage](###usage)\n[Future Development](###future-development)\n[Contributors](###contributors)\n[Tests](###tests)\n[License](###license)\n[Questions, Contact Info](###questions-and-contact-info)\n### Project Description\n ${content.description}\n### Installation\n ${content.installation}\n### Usage\n ${content.usage}\n### Future Development\n ${content.future}\n### Contributors\n ${content.contributing}\n### Tests\n ${content.tests}\n### License\n ${content.describeLicense}\n### Questions and Contact Info\n ${content.questions}\n * Link to Github profile for the developer, ${content.developer}: [GitHub](https://github.com/${content.github})\n * Email address for ${content.developer}: ${content.email}`
 }
 
 async function init() {

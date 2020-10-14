@@ -1,14 +1,30 @@
-# End of Earth as We Know It
+# Flat Earth
 ## Doug Davidoff
-
+ [License: MIT](http://img.shields.io/static/v1?label=License&message=<CONTENT.LICENSE CODE HERE>&color=orange) 
+### Table of Contents
+[Project Description](###project-description)
+[Installation](###installation)
+[Usage](###usage)
+[Future Development](###future-development)
+[Contributors](###contributors)
+[Tests](###tests)
+[License](###license)
+[Questions, Contact Info](###questions-and-contact-info)
 ### Project Description
- An app that destroys all living life -- except for dogs.
-## Installation
- Insert 1990s floppy disk into an IBM System 360
-## Usage
- Insert Tab A into Slot B.
-## Contributors My entire race of humanity
-## Tests Only works once
-## Questions and Contact Info Who has the guts to demo this thing?
- * Link to Doug Davidoff's Github profile: [GitHub](https://github.com/dougdavidoff)
- * Email Doug Davidoff: douglass.davidoff@gmail.com
+ Presents surface oif a sphere as a two-dimensional shape.
+### Installation
+ Peel away surface of the sphere. Spread it out with as few tears as possible.
+### Usage
+ Read the resulting shape.
+### Future Development
+ Handle for rubix cubes.
+### Contributors
+ shape shifters
+### Tests
+ used entire Earth in a test. No one noticed.
+### License
+ undefined
+### Questions and Contact Info
+ Contact developer for more info.
+ * Link to Github profile for the developer, Doug Davidoff: [GitHub](https://github.com/dougdavidoff)
+ * Email address for Doug Davidoff: douglass.davidoff@gmail.com
