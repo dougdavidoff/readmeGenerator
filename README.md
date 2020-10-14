@@ -1,8 +1,5 @@
----FastCompany.com says, '[E]xtremely straightforward and open. It permits users to do anything with a given project as long as they credit the developer and don’t hold him or her liable for the project’s use.'---
-
-
-# Beautify Bridgeport
-## Doug Davidoff
+# a
+## b
  ![License: MIT](http://img.shields.io/static/v1?label=License&message=MIT&color=orange) 
 ### Table of Contents
 [Project Description](###project-description)
@@ -22,20 +19,20 @@
 [Questions, Contact Info](###questions-and-contact-info)
 
 ### Project Description
- Planty flowers everywhere and knock down some old factories
+ e
 ### Installation
- bring a bulldozewr and a shovel
+ f
 ### Usage
- buy a lot of flower bulbs
+ g
 ### Future Development
- Keep on keeping on
+ h
 ### Contributors
- Bridgeporters
+ j
 ### Tests
- We beautified downtown 
- ###License
+ k
+ ### License
  FastCompany.com says, '[E]xtremely straightforward and open. It permits users to do anything with a given project as long as they credit the developer and don’t hold him or her liable for the project’s use.'
 ### Questions and Contact Info
- Contact the developer.
- * Link to Github profile for the developer, Doug Davidoff: [GitHub](https://github.com/dougdavidoff)
- * Email address for Doug Davidoff: doug@mail.com
+ l
+ * Link to Github profile for the developer, b: [GitHub](https://github.com/c)
+ * Email address for b: d
