@@ -1,6 +1,6 @@
-# Application: Go To Sleep
+# Application: Divert the Connecticut River
 ## Developer: Doug Davidoff
- ![License: MIT](http://img.shields.io/static/v1?label=License&message=MIT&color=orange) 
+ ![License: Apache 2.0](http://img.shields.io/static/v1?label=License&message=Apache&color=orange) 
 ### Table of Contents
 [Project Description](#project-description)
 
@@ -19,20 +19,20 @@
 [Questions, Contact Info](#questions-and-contact-info)
 
 ### Project Description
- App to companion user on the way to restful sleep
+ Change the flow of the Connecticut River so it empties out at New Haven harbor.
 ### Installation
- Clear clothes off of bed. Take sleep medicine.
+ Build a big trench from the Connecticut River to the Quinnipiac River.
 ### Usage
- Get into bed. Practice emptying mind of thoughts. Read a while. Empty mind of thoughts again. Drft off to sleep.
+ Close off the Connecticut. Open the gate to the trench.
 ### Future Development
- Reliable alarm clock included in app.
+ Divert the Hudson River.
 ### Contributors
- Mattress manufacturer and pharmaceutical manufacturer.
+ Engineers all across New England.
 ### Tests
- Tried during the day while napping.
+ Tested it by diverting the Norwalk River.
  ### License
- FastCompany.com says, '[E]xtremely straightforward and open. It permits users to do anything with a given project as long as they credit the developer and don’t hold him or her liable for the project’s use.'
+ FastCompany.com says, '[S]imilar to the MIT License, but also explicitly grants patent rights to users.'
 ### Questions and Contact Info
- Contact the developer.
- * Link to Github profile for the developer, Doug Davidoff: [GitHub](https://github.com/dougdavidoff)
+ If you have questions, contact the developer.
+ * Link to Github profile for the developer, Doug Davidoff: [GitHub developer profile](https://github.com/dougdavidoff)
  * Email address for Doug Davidoff: douglass.davidoff@gmail.com
