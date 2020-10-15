@@ -49,10 +49,10 @@ function promptUser() {
             message: "Use instructions"
         },
         {
-            type: "input"
-            name: "video"
+            type: "input",
+            name: "video",
             message: "URL of a video demonstration"
-        }
+        },
         {
             type: "input",
             name: "future",
@@ -109,7 +109,7 @@ function generateMD(content) {
     }
 
     // Markdown code to create the README file
-    return `# Application: ${content.projectTitle}\n## Developer: ${content.developer}\n ![License: ${content.license}](${urlLicense}) \n### Table of Contents\n[Project Description](#project-description)\n\n[Installation](#installation)\n\n[Usage](#usage)\n\n[Future Development](#future-development)\n\n[Contributors](#contributors)\n\n[Tests](#tests)\n\n[License](#license)\n\n[Questions, Contact Info](#questions-and-contact-info)\n\n### Project Description\n ${content.description}\n### Installation\n ${content.installation}\n### Usage\n ${content.usage}\n### Video\n Link to video demonstrating the app: ${content.video}\n### Future Development\n ${content.future}\n### Contributors\n ${content.contributing}\n### Tests\n ${content.tests}\n ### License\n ${describeLicense}\n### Questions and Contact Info\n ${content.questions}\n * Link to Github profile for the developer, ${content.developer}: [GitHub developer profile](https://github.com/${content.github})\n * Email address for ${content.developer}: ${content.email}`
+    return `# Application: ${content.projectTitle}\n## Developer: ${content.developer}\n ![License: ${content.license}](${urlLicense}) \n### Table of Contents\n[Project Description](#project-description)\n\n[Installation](#installation)\n\n[Usage](#usage)\n\n[Future Development](#future-development)\n\n[Contributors](#contributors)\n\n[Tests](#tests)\n\n[License](#license)\n\n[Questions, Contact Info](#questions-and-contact-info)\n\n### Project Description\n ${content.description}\n### Installation\n ${content.installation}\n### Usage\n ${content.usage}\n### Video\n [Link to video demonstrating the app.](${content.video}\n### Future Development\n ${content.future}\n### Contributors\n ${content.contributing}\n### Tests\n ${content.tests})\n ### License\n ${describeLicense}\n### Questions and Contact Info\n ${content.questions}\n * Link to Github profile for the developer, ${content.developer}: [GitHub developer profile](https://github.com/${content.github})\n * Email address for ${content.developer}: ${content.email}`
 }
 
 // function to run the program

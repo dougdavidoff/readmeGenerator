@@ -1,6 +1,6 @@
-# Application: Divert the Connecticut River
-## Developer: Doug Davidoff
- ![License: Apache 2.0](http://img.shields.io/static/v1?label=License&message=Apache&color=orange) 
+# Application: 
+## Developer: 
+ ![License: MIT](http://img.shields.io/static/v1?label=License&message=MIT&color=orange) 
 ### Table of Contents
 [Project Description](#project-description)
 
@@ -19,20 +19,22 @@
 [Questions, Contact Info](#questions-and-contact-info)
 
 ### Project Description
- Change the flow of the Connecticut River so it empties out at New Haven harbor.
+ 
 ### Installation
- Build a big trench from the Connecticut River to the Quinnipiac River.
+ 
 ### Usage
- Close off the Connecticut. Open the gate to the trench.
+ 
+### Video
+ [Link to video demonstrating the app.](
 ### Future Development
- Divert the Hudson River.
+ 
 ### Contributors
- Engineers all across New England.
+ 
 ### Tests
- Tested it by diverting the Norwalk River.
+ )
  ### License
- FastCompany.com says, '[S]imilar to the MIT License, but also explicitly grants patent rights to users.'
+ FastCompany.com says, '[E]xtremely straightforward and open. It permits users to do anything with a given project as long as they credit the developer and don’t hold him or her liable for the project’s use.'
 ### Questions and Contact Info
- If you have questions, contact the developer.
- * Link to Github profile for the developer, Doug Davidoff: [GitHub developer profile](https://github.com/dougdavidoff)
- * Email address for Doug Davidoff: douglass.davidoff@gmail.com
+ 
+ * Link to Github profile for the developer, : [GitHub developer profile](https://github.com/)
+ * Email address for : 
