@@ -1,12 +1,16 @@
+// required dependencies
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 
+// promise, to avoid callback hell
 const writeFileAsync = util.promisify(fs.writeFile);
 
+// variables needed to accomplish licensing tasks later
 var describeLicense = "";
 var urlLicense = "";
 
+// user input details about developer and app
 function promptUser() {
     return inquirer.prompt([
         {
@@ -73,6 +77,7 @@ function promptUser() {
     ]);
 }
 
+// logic to create license badge and text for the README file
 function generateMD(content) {
     console.log(content);
     switch (content.license) {
@@ -97,9 +102,12 @@ function generateMD(content) {
             urlLicense = "http://img.shields.io/static/v1?label=License&message=wtfplL&color=orange";
             break;
     }
+
+    // Markdown code to create the README file
     return `# Application: ${content.projectTitle}\n## Developer: ${content.developer}\n ![License: ${content.license}](${urlLicense}) \n### Table of Contents\n[Project Description](#project-description)\n\n[Installation](#installation)\n\n[Usage](#usage)\n\n[Future Development](#future-development)\n\n[Contributors](#contributors)\n\n[Tests](#tests)\n\n[License](#license)\n\n[Questions, Contact Info](#questions-and-contact-info)\n\n### Project Description\n ${content.description}\n### Installation\n ${content.installation}\n### Usage\n ${content.usage}\n### Future Development\n ${content.future}\n### Contributors\n ${content.contributing}\n### Tests\n ${content.tests}\n ### License\n ${describeLicense}\n### Questions and Contact Info\n ${content.questions}\n * Link to Github profile for the developer, ${content.developer}: [GitHub developer profile](https://github.com/${content.github})\n * Email address for ${content.developer}: ${content.email}`
 }
 
+// function to run the program
 async function init() {
     console.log("hi")
     try {
@@ -115,4 +123,5 @@ async function init() {
     }
 }
 
+// calling the program to start
 init();
