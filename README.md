@@ -1,5 +1,5 @@
-# 1
-## 2
+# Go to sleep
+## Doug Davidoff
  ![License: MIT](http://img.shields.io/static/v1?label=License&message=MIT&color=orange) 
 ### Table of Contents
 [Project Description](#project-description)
@@ -19,20 +19,20 @@
 [Questions, Contact Info](#questions-and-contact-info)
 
 ### Project Description
- 5
+ App to companion user on the way to restful sleep
 ### Installation
- 6
+ Clear clothes off of bed. Take sleep medicine.
 ### Usage
- 7
+ Get into bed. Practice emptying mind of thoughts. Read a while. Empty mind of thoughts again. Drft off to sleep.
 ### Future Development
- 8
+ Alarm clock app.
 ### Contributors
- 9
+ Mattress manufacturer.
 ### Tests
- 10
+ Tried during daytime while napping.
  ### License
  FastCompany.com says, '[E]xtremely straightforward and open. It permits users to do anything with a given project as long as they credit the developer and don’t hold him or her liable for the project’s use.'
 ### Questions and Contact Info
- 11
- * Link to Github profile for the developer, 2: [GitHub](https://github.com/3)
- * Email address for 2: 4
+ Contact the developer.
+ * Link to Github profile for the developer, Doug Davidoff: [GitHub](https://github.com/dougdavidoff)
+ * Email address for Doug Davidoff: douglass.davidoff@gmail.com
