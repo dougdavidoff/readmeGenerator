@@ -1,5 +1,5 @@
 # Application: Go To Sleep
-##Developer: Doug Davidoff
+## Developer: Doug Davidoff
  ![License: MIT](http://img.shields.io/static/v1?label=License&message=MIT&color=orange) 
 ### Table of Contents
 [Project Description](#project-description)
