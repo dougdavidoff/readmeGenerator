@@ -1,5 +1,5 @@
-# Go to sleep
-## Doug Davidoff
+# Application: Go To Sleep
+##Developer: Doug Davidoff
  ![License: MIT](http://img.shields.io/static/v1?label=License&message=MIT&color=orange) 
 ### Table of Contents
 [Project Description](#project-description)
@@ -25,11 +25,11 @@
 ### Usage
  Get into bed. Practice emptying mind of thoughts. Read a while. Empty mind of thoughts again. Drft off to sleep.
 ### Future Development
- Alarm clock app.
+ Reliable alarm clock included in app.
 ### Contributors
- Mattress manufacturer.
+ Mattress manufacturer and pharmaceutical manufacturer.
 ### Tests
- Tried during daytime while napping.
+ Tried during the day while napping.
  ### License
  FastCompany.com says, '[E]xtremely straightforward and open. It permits users to do anything with a given project as long as they credit the developer and don’t hold him or her liable for the project’s use.'
 ### Questions and Contact Info
